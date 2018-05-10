@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/colors"
+        android:icon="@drawable/ic_color_24px"
+        android:title="Item 1"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/color1"
+                android:icon="@drawable/ic_iconmonstr_circle_1"
+                android:title="Item 1"
+                android:orderInCategory="100"/>
+        </menu>
+    </item>
+    <item android:id="@+id/brush"
+        android:icon="@drawable/ic_brush_24px"
+        android:title="Item 1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/eraser"
+        android:icon="@drawable/ic_iconmonstr_eraser_2"
+        android:title="Item 1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_save_24px"
+        android:title="Item 1"
+        app:showAsAction="always"/>
+</menu>
